@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS Croatia;
+CREATE TABLE Croatia(
+	country VARCHAR,
+	year INT,
+	sex VARCHAR,
+	age VARCHAR,
+	suicides_pop INT,
+	generation VARCHAR,
+	psychiatrists INT,
+	nurses INT,
+	social_workers INT,
+	psychologists INT,
+	eightyplus INT,
+	seventies INT,
+	sixties INT,
+	fifties INT,
+	forties INT,
+	thirties INT,
+	twenties INT,
+	teens INT,
+	mental_hospitals INT,
+	health_units INT,
+	outpatient_facilities INT,
+	day_treatment INT
+	);
